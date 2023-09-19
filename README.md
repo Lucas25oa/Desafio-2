@@ -1,8 +1,4 @@
-Titulo do modulo
-Hibrido Change Collor
-
-
-Descrição
+#Descrição
 
 O modulo disponivel para download, tem a finalidade de adicionar uma cor de todos os botões disponiveis na loja, alterar ou remover a cor já adicionada.
 Atravês do command line (cli) do magento, utilizando um comando basico, como por exemplo: ".bin/magento 00000 1". Após fazer isso, todos os buttons na tag <buttons>, serão mudados para a cor hexadecimal escolhida.
