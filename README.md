@@ -1,13 +1,13 @@
-<h1 style="text-transform: uppercase;">Desafio 2</h1>
+<h1>Desafio 2</h1>
 
 
 
-<h2 style="text-transform: uppercase;">Descrição</h2>
+<h2>Descrição</h2>
 
 O modulo disponivel para download, tem a finalidade de adicionar uma cor de todos os botões disponiveis na loja.
 Atravês do command line (cli) do magento, utilizando um comando basico, como por exemplo: ".bin/magento 00000 1". Após fazer isso, todos os buttons na tag <buttons>, serão mudados para a cor hexadecimal escolhida.
 
-<h2 style="text-transform: uppercase;">Como foi desenvolvido.</h2>
+<h2>Como foi desenvolvido.</h2>
 
 Basicamente foi desenvolvido da seguinte forma.
 
@@ -22,7 +22,7 @@ Basicamente foi desenvolvido da seguinte forma.
 
 
 
-<h2 style="text-transform: uppercase;">Passo a Passo da instalação.</h2>
+<h2>Passo a Passo da instalação.</h2>
 
 1° Faça download do modulo através dessa pasta do github.
 
