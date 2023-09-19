@@ -1,0 +1,19 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Console\CommandListInterface">
+        <arguments>
+            <argument name="commands" xsi:type="array">
+                <item name="color_change" xsi:type="object">
+                    Hibrido\ChangeCollorAllButtons\Console\Command\ChangeButton
+                </item>
+            </argument>
+        </arguments>
+    </type>
+
+    <type name="Magento\Framework\View\Result\Page">
+        <plugin name="add_body_class_store_view_id"
+            type="Hibrido\ChangeCollorAllButtons\Plugin\AddBodyClassStoreViewID" />
+    </type>
+
+
+</config>
